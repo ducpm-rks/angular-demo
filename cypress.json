@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://localhost:4200",
+    "projectId": "your-cypress-project-id",
+    "integrationFolder": "cypress/e2e",
+    "supportFile": "cypress/support/e2e.ts",
+    "pluginsFile": "cypress/plugins/index.js", 
+    "video": false, 
+    "fixturesFolder": "cypress/fixtures",
+    "screenshotsFolder": "cypress/screenshots",
+    "downloadsFolder": "cypress/downloads"
+  }
+  

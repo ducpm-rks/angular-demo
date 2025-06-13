@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine",
+      "cypress",
+      "node" // Include "node" for Node.js global types often used in testing
+    ]
+  },
+  "files": [
+    "src/test.ts",      // This is the entry point for your Karma tests
+    "src/polyfills.ts"  // **Explicitly include polyfills.ts for testing**
+  ],
+  "include": [
+    "src/**/*.spec.ts", // This will include your component/service spec files
+    "src/**/*.d.ts"
+  ]
+}

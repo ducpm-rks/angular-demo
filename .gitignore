@@ -1,0 +1,59 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.log
+
+# OS generated files
+.DS_Store
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.pdb
+*.opendb
+.history/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Sass
+.sass-cache/
+
+# Coverage directory
+/coverage
+/karma-coverage
+
+# Angular specific
+.angular/cache
+*.js.map
+*.css.map
+*.ngfactory.js
+*.ngfactory.ts
+*.shim.js
+*.shim.ts
+*.metadata.json
+
+# Cypress specific
+/cypress/videos          # Recorded test videos
+/cypress/screenshots     # Test screenshots
+/cypress/results         # Custom reporter results (if configured)
+/cypress/downloads       # Files downloaded during tests
+cypress.env.json         # Environment variables for Cypress (if any, often sensitive)
