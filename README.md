@@ -39,7 +39,7 @@ npm install -g @angular/cli@7
 
 ### Clone the repository:
 ```bash
-git clone
+git clone https://github.com/ducpm-rks/angular-demo.git
 cd angular-demo
 ```
 
